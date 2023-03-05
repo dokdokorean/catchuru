@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>우리집 고양이는 츄르를 좋아해</title>
+        <style>
+            
+            body{background-color: #fffcf3; align-items: center; height: 5000px;}
+            #main_rec{position: absolute; left: 50%; top: 100px; transform: translate(-50%,-50%);width: 400px; height: 100px;}
+            #title{position: absolute; left: 55%;top: 120px; transform: translate(-50%,-50%); height: auto; width: 720px;}
+            #div1{position: absolute; top: 250px; left: -60px;height: auto; width: 250px;}
+            #div2-0_1{position: absolute; top: 570px; left: 40px;height: auto; width: 80px;}
+            #div2-0_2{position: absolute; top: 573px; left: 370px; height: auto; width: 80px;}
+
+            #cat1{position: absolute; top: 660px; left: -300px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.5s; animation-direction: alternate; animation-name: cat;}
+            #cat2{position: absolute; top: 507px; left: 700px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.7s; animation-direction: alternate; animation-name: cat;}
+            #cat3{position: absolute; top: 723px; left: 730px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2s; animation-direction: alternate; animation-name: cat;}
+            #cat4{position: absolute; top: 307px; left: -200px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1s; animation-direction: alternate; animation-name: cat;}
+            #cat5{position: absolute; top: 900px; left: 720px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.5s; animation-direction: alternate; animation-name: cat;}
+            #cat6{position: absolute; top: 1300px; left: -370px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2.3s; animation-direction: alternate; animation-name: cat;}
+            #cat7{position: absolute; top: 1500px; left: -200px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.7s; animation-direction: alternate; animation-name: cat;}
+            #cat8{position: absolute; top: 1110px; left: -00px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.5s; animation-direction: alternate; animation-name: cat;}
+            #cat9{position: absolute; top: 1700px; left: 700px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2.5s; animation-direction: alternate; animation-name: cat;}
+            #cat10{position: absolute; top: 1800px; left: 700px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2.5s; animation-direction: alternate; animation-name: cat;}
+            #cat11{position: absolute; top: 1960px; left: -300px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.5s; animation-direction: alternate; animation-name: cat;}
+            #cat12{position: absolute; top: 2107px; left: 700px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.7s; animation-direction: alternate; animation-name: cat;}
+            #cat13{position: absolute; top: 2323px; left: -300px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2s; animation-direction: alternate; animation-name: cat;}
+            #cat14{position: absolute; top: 2507px; left: 750px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1s; animation-direction: alternate; animation-name: cat;}
+            #cat15{position: absolute; top: 2700px; left: 720px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.5s; animation-direction: alternate; animation-name: cat;}
+            #cat16{position: absolute; top: 2900px; left: -370px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2.3s; animation-direction: alternate; animation-name: cat;}
+            #cat17{position: absolute; top: 3000px; left: 700px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.7s; animation-direction: alternate; animation-name: cat;}
+            #cat18{position: absolute; top: 3110px; left: -300px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.5s; animation-direction: alternate; animation-name: cat;}
+            #cat19{position: absolute; top: 3200px; left: 700px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2.5s; animation-direction: alternate; animation-name: cat;}
+            #cat20{position: absolute; top: 3260px; left: -300px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.5s; animation-direction: alternate; animation-name: cat;}
+            #cat21{position: absolute; top: 3507px; left: 700px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.7s; animation-direction: alternate; animation-name: cat;}
+            #cat22{position: absolute; top: 3823px; left: -300px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2s; animation-direction: alternate; animation-name: cat;}
+            #cat23{position: absolute; top: 3907px; left: 750px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1s; animation-direction: alternate; animation-name: cat;}
+            #cat24{position: absolute; top: 4000px; left: -320px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.5s; animation-direction: alternate; animation-name: cat;}
+            #cat25{position: absolute; top: 4200px; left: 770px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2.3s; animation-direction: alternate; animation-name: cat;}
+            #cat26{position: absolute; top: 4400px; left: -200px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.7s; animation-direction: alternate; animation-name: cat;}
+            #cat27{position: absolute; top: 4610px; left: 700px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 1.5s; animation-direction: alternate; animation-name: cat;}
+            #cat28{position: absolute; top: 4700px; left: -300px; width:30px;height:auto;animation-iteration-count:infinite;animation-duration: 2.5s; animation-direction: alternate; animation-name: cat;}
+
+
+            @keyframes cat{
+                from{
+                    width: 8%;
+                }
+                to{
+                    width: 11%;
+                }
+            }
+
+            #div2-1_1{position: absolute; top: 365px; left: -80px; width: 290px; height: auto;visibility: hidden;}
+            #div2-1_2{position: absolute; top: 310px; left: 299px; width:auto; height: 235px;visibility: hidden;}
+            #div2-2_1{position: absolute; top: 361px; left: -80px; width: 290px; height: auto;visibility: hidden;}
+            #div2-2_2{position: absolute; top: 310px; left: 300px; width:auto; height: 235px;visibility: hidden;}
+            #div2-3_1{position: absolute; top: 365px; left: -80px; width: 290px;; height: auto;visibility: visible;}
+            #div2-3_2{position: absolute; top: 310px; left: 300px; width:auto; height: 235px;visibility: visible;}
+            #div2-4_1{position: absolute; top: 365px; left: -80px; width: 290px; height: auto;visibility: hidden;}
+            #div2-4_2{position: absolute; top: 310px; left: 300px; width:auto; height: 235px;visibility: hidden;}
+            #div2-5_1{position: absolute; top: 361px; left: -80px; width: 290px; height: auto;visibility: hidden;}
+            #div2-5_2{position: absolute; top: 310px; left: 299px; width:auto; height: 235px;visibility: hidden;}
+
+            .catslider{position: absolute; top: 700px ;}
+            input[type=range]{
+                width:500px;-webkit-appearance: none; background: transparent;
+            }
+            input[type=range]::-webkit-slider-thumb { 
+  -webkit-appearance: none;
+  background-image:url(div3.png);
+  cursor: pointer;
+  border-radius: 15px;
+  height: 70px; width: 70px;   
+  margin-top: -37px; 
+}
+            input[type=range]::-webkit-slider-runnable-track { 
+  width: 100%; height: 10px; 
+  cursor: pointer; 
+  background:#000; 
+  border-radius: 10px;  
+} 
+            #drag{position: absolute; top: 735px; left: 130px; width: 300px;}
+            #div4-0{position: absolute; top: 790px; left: 10px ; width: auto;height:50px;visibility: visible;}
+            #div4-1{position: absolute; top: 780px; left: 150px ; width: auto;height:200px;visibility: hidden;}
+            #div4-2{position: absolute; top: 780px; left: 140px ; width: auto;height:200px;visibility: hidden;}
+            #div4-3{position: absolute; top: 780px; left: 120px ; width: auto;height:200px;visibility: visible;}
+            #div4-4{position: absolute; top: 780px; left: 100px ; width: auto;height:200px;visibility: hidden;}
+            #div4-5{position: absolute; top: 780px; left: 100px ; width: auto;height:200px;visibility: hidden;}
+
+            #persent1{position: absolute; top: -60px; left: 140px;}
+            #persent2{position: absolute; top: -82px; left: 310px; font-size: 30px;}
+            #persent3{position: absolute; top: -60px; left: 350px;}
+
+            #catfat{position: absolute; top: 29px; left: 500px; background-color: transparent; border-color: transparent; font-size: 16px;}
+            #catkcal{position: absolute; top: 29px; left: 700px; background-color: transparent; border-color: transparent; font-size: 16px;}
+            #cattip{position: absolute; top: 29px; left: 950px; background-color: transparent; border-color: transparent; font-size: 16px;}
+
+            #catfat:hover{color: #FFBB54;}
+            #catkcal:hover{color: #FFBB54;}
+            #cattip:hover{color: #FFBB54;}
+
+            #div5{position: absolute; top:970px;left: -120px; width: 750px; height: auto;}
+            #div5-1{width: 750px; height: auto;}
+            #waist{position: absolute; top: 166px; left: 87px; height: 30px; font-size: 15px;}
+            #leg{position: absolute; top: 166px; left: 290px; width: 140px;height: 30px; font-size: 15px;}
+            #cal_result{position: absolute; top: 170px; left: 578px; font-size: 34px;}
+
+            #info{position: absolute; top: 1260px; left: -20px;width: auto; height: 35px;}
+            #div6{position: absolute; top: 1280px; left: -100px;width: auto; height: 450px;}
+            #div6-1{position: absolute; top: 1230px; left: 110px;width: auto; height: 50px;}
+            #div6-1_1{position: absolute; top:1240px; left: 30px;width: 70px; height: 50px; transform: rotate(20deg);}
+
+            #theages{position: absolute; top: 2050px; left: 0px; font-size: 20px;}
+
+            #div7{position: absolute; top: 1750px; left:-90px ;width: 650px; height: auto;}
+            #info_rec{position: absolute; left: -50px; top: 1310px; width: 600px; height: 260px; background-color:#fff;border-radius: 20px;border: 7px solid #FFEFC6; visibility: hidden;}
+
+            nav { width:110%;height:70px; background:#FFF7DD; visibility: hidden; left: -10px; top: -10px; opacity: 0.95;}
+            #logo2{position: absolute; top: -63px; left: -13px; height: auto; width: 400px;}
+
+            #info_rec1{position: absolute; top: 20px; left: 20px; font-size: 30px; font-weight: bolder;}
+            #info_rec2{position: absolute; top: 70px; left: 20px; font-size: 20px;}
+            #info_rec3{position: absolute; top: 110px; left: 20px; font-size: 18px; width: 480px;}
+            #info_rec4{position: absolute; top: 160px; left: 20px; font-size: 18px; width: 450px;}
+            #info_rec5{position: absolute; top: 190px; left: 20px; font-size: 16px; width: 450px;}
+            #phra{position: absolute; top: 2180px; left: -90px; width: 1000px;}
+            #text{font-size: 15px;}
+
+            #div8{position: absolute; top: 2070px; left: -90px;width: 500px; height: auto;}
+            .fix{
+                position: fixed; animation: down 0.5s ease; animation-fill-mode: forwards ;
+            }
+            @keyframes down{
+                0%{
+                    visibility: hidden;
+    transform: translateY(-50px)
+  }
+  100%{
+    visibility: visible;
+    transform: translateY(0px)
+  }
+            }
+            #div10{position: absolute; top: 2630px; left: -40px;}
+            #div10_1{ height: auto; width: 500px;}
+            #kg{position: absolute; top: 95px; left: 240px; height: 25px;}
+            #cat_now{position: absolute; left: 240px; top: 166px;border: 2px solid rgb(255, 189, 165);border-radius: 10px; height: 35px; width: 160px;}
+            #cat_kcal1{position: absolute; left: 288px; top: 354px; font-size: 40px;color: rgb(62, 62, 62);}
+            #cat_kcal2{position: absolute; left: 305px; top: 410px; font-size: 33px; color: rgb(129, 129, 129);}
+
+
+        </style>
+    </head>
+    <body>
+        <script src="http://code.jquery.com/jquery-latest.js"></script> 
+        <header><img id="title" src="title.png"></header>
+        <main>
+            <div id="main_rec">
+                <img id="cat1" src="cat1.png">
+                <img id="cat2" src="cat2.png">
+                <img id="cat3" src="cat3.png">
+                <img id="cat4" src="cat4.png">
+                <img id="cat5" src="cat5.png">
+                <img id="cat6" src="cat6.png">
+                <img id="cat7" src="cat7.png">
+                <img id="cat8" src="cat8.png">
+                <img id="cat9" src="cat9.png">
+                <img id="cat10" src="cat1.png">
+                <img id="cat11" src="cat2.png">
+                <img id="cat12" src="cat3.png">
+                <img id="cat13" src="cat4.png">
+                <img id="cat14" src="cat5.png">
+                <img id="cat15" src="cat6.png">
+                <img id="cat16" src="cat7.png">
+                <img id="cat17" src="cat8.png">
+                <img id="cat18" src="cat9.png">
+                <img id="cat19" src="cat9.png">
+                <img id="cat20" src="cat1.png">
+                <img id="cat21" src="cat2.png">
+                <img id="cat22" src="cat3.png">
+                <img id="cat23" src="cat4.png">
+                <img id="cat24" src="cat5.png">
+                <img id="cat25" src="cat6.png">
+                <img id="cat26" src="cat7.png">
+                <img id="cat27" src="cat8.png">
+                <img id="cat28" src="cat9.png">
+
+            <img id="div1" src="div1.png">
+            <div id="div2">
+                <img id="div2-0_1" src="div2-0_1.png">
+                <img id="div2-0_2" src="div2-0_2.png">
+
+                <img id="div2-1_1" src="div2-1_1.png">
+                <img id="div2-1_2" src="div2-1_2.png">
+                <img id="div2-2_1" src="div2-2_1.png">
+                <img id="div2-2_2" src="div2-2_2.png">
+                <img id="div2-3_1" src="div2-3_1.png">
+                <img id="div2-3_2" src="div2-3_2.png">
+                <img id="div2-4_1" src="div2-4_1.png">
+                <img id="div2-4_2" src="div2-4_2.png">
+                <img id="div2-5_1" src="div2-5_1.png">
+                <img id="div2-5_2" src="div2-5_2.png">
+            </div>
+            
+            <div class="catslider">
+                <input class="catslider1"type="range" min="16" max="65" value="35" on="showpic()" >
+                <p id="persent1">우리집 냥이의 체지방률은</p>
+                <p id="persent2">35</p>
+                <p id="persent3">%!</p>
+
+            </div>
+            <p id="drag">드래그 해서 우리집 고양이와 맞춰보세요!</p>
+            <div id="div4">
+                <img id="div4-0" src="div4-0.png">
+                <img id="div4-1" src="div4-1.png">
+            <img id="div4-2" src="div4-2.png">
+            <img id="div4-3" src="div4-3.png">
+            <img id="div4-4" src="div4-4.png">
+            <img id="div4-5" src="div4-5.png">
+            </div>
+            <div id="div5">
+                <img id="div5-1" src="div5.png">
+                <input type="textbox" id="waist" onkeyup="cal_fat()" placeholder="허리 둘레(cm)" maxlength="2">
+                <input type="textbox" id="leg" onkeyup="cal_fat()" placeholder="다리 길이(cm)" maxlength="2">
+                <a id="cal_result">00</a>
+            </div>
+            <img id="info" src="https://cdn-icons-png.flaticon.com/512/157/157933.png" alt=""> 
+            <img id="div6-1_1" src="div6-1_1.png">
+            <img id="div6-1" src="div6-1.png">
+            <img id="div6" src="div6.png">
+            <img id="div7" src="div7.png">
+            <img id="div8" src="div8.png">
+            <div id="phra">
+                <h2>목표는 적당히, 과하게 설정하지 않기</h2>
+                <p id="text">고양이는 스트레스에 매우 민감한 동물이고, 무리한 다이어트는 고양이에게 큰 스트레스를 줄 수 있습니다.</p>
+                <p id="text">일주일에 체중의 2% 이상의 체중 감량은 고양이의 신체에 무리가 갈 수 있습니다.</p>
+                <p id="text">적당한 목표는 매주 체중의 1%씩 감량을 하는 것입니다.</p>
+                <p id="text"> 다이어트 초반에는 고양이의 식습관에 변화가 생긴 지 얼마 되지 않은 시점이기 때문에 최소한 1~2주에 한 번씩은 체중을 체크하는 것이 좋습니다.</p>
+                <p id="text">고양이를 들고 체중계에 올라가는 것은 고양이를 들고 있는 자세에 따라 체중이 다르게 측정될 수 있으니,</p>
+                <p id="text">정확한 몸무게는 가까운 동물병원을 찾아 측정하는 것을 권장합니다.</p>
+                <br>
+                <h2>먹는 양 체크하기</h2>
+                <p id="text">사람도 다이어트를 할 때 식단 일기를 작성하듯이, 고양이도 하루 섭취량을 체크하는 것이 좋습니다.</p>
+                <p id="text">고양이의 하루 칼로리 권장량을 참고하여 고양이가 먹는 사료의 양을 조절하는 것도 다이어트에 도움이 될 수 있습니다.</p>
+                <p id="text">사료의 양에 칼로리를 곱하면 하루에 섭취한 칼로리를 알 수 있으니, 효과적인 다이어트에 도움이 될 수 있어요!</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>조금씩 자주자주 먹기</h2>
+                <p id="text">꾸준한 포만감을 주기 위해서 조금씩 자주자주 먹는 식습관은 다이어트를 더욱 효과적으로 만들어줘요!</p>
+                <p id="text">고양이에게 주기 적으로 정해진 양을 조금씩 자주 주면 포만감을 유지 할 수 있어요.</p>
+                <h2>다이어트 사료?</h2>
+                <p id="text">다이어트 사료는 일반 사료에 비래 칼로리가 낮아서 같은 양을 섭취했을 때</p>
+                <p id="text">다이어트에 도움이 되는 것은 사실이에요.</p>
+                <p id="text">하지만 다이어트 사료도 많이 먹으면 살이 찔 수 있으니 양 조절에 주의해주세요.</p>
+                <h2>목표 달성 이후</h2>
+                <p id="text">다이어트 목표 달성 이후 요요현상으로 다시 살이 찔 수 있어요.</p>
+                <p id="text">다이어트가 끝났다고 해도 꾸준히 식단을 조절하고 유지하는 데 관심을 기울여야해요</p>
+                <h2>절식은 절대 금물!</h2>
+                <p id="text">고양이 다이어트를 할 때는 절식을 하면 절대 안 됩니다.</p>
+                <p id="text">고양이들은 하루 이틀만 굶어도 지방간이 올 수 있으며, 이건 고양이들에게 매우 매우 치명적이에요.</p>
+                <p id="text">그렇기 때문에 고양이의 다이어트는 급격하게 사료를 줄이기보다는 서서히, 천천히 진행하시는 것이 좋습니다.</p>
+                <h2>간식의 양?</h2>
+                <p id="text">미국동물병원 협회에서 하루에 권장하는 고양이 간식의 양은 고양이 하루 섭취 권장량의 10퍼센트입니다.</p>
+                <p id="text">츄르는 하루에 3~4개 정도는 먹여도 괜찮습니다.</p>
+                <p id="text">츄르의 구성성분은 대부분 수분이어서 물을 잘 먹지 않는 고양이라면 음수량을 늘리는 데에도 도움이 됩니다.</p>
+                <br>
+                <img src="div8.png" style="width: 500px; height: auto;">
+                <h2>*추가 팁*</h2>
+                <p id="text">고양이가 배고파서 칭얼대고 예민하게 행동할 수 있어요.</p>
+                <p id="text">평소 먹던 양보다 적어서 공복감을 느끼기 때문인데요, 하루에 3번씩 나눠서 배식을 하면</p>
+                <p id="text">고양이가 공복감을 덜 느끼게 할 수 있어요.</p>
+                <p id="text">섬유질이 많이 포함된 처방식이나, 물을 많이 주는 것도 공복감을 줄여줄 수 있습니다.</p>
+                <br>
+                <p id="text">배가 고파서 예민해진 고양이가 스트레스를 풀 수 있도록 장난감 속에 사료를 넣고, 놀 수 있도록 하는 것도 하나의 방법입니다.</p>
+                <p id="text">실제로 먹는 양은 적지만, 고양이의 스트레스 해소에도 도움이 되고,</p>
+                <p id="text">장난감을 가지고 놀면서 기분 전환도 되는 효과를 볼 수 있습니다.</p>
+                <br>
+                <h3>*어린 고양이들은 하루에 3~4번 밥 주기! 힘내서 우다다 할 수 있게 해주기</h3>
+                <p id="text">어린 고양이들에게 츄르는 되도록 주지 않는 것이 좋습니다.</p>
+                <p id="text">바로 포만감 때문인데요, 활동량도 많고 성장도 해야 하는 아기 고양이들은 많은 칼로리를 필요로 하기 때문에</p>
+                <p id="text">아기 고양이용 사료는 성묘들의 사료에 비해 고칼로리로 구성이 되어 있습니다.</p>
+                <p id="text">하지만 츄르에는 생각보다 영양분이 많지 않고 수분이 대부분을 차지하다보니</p>
+                <p id="text">포만감으로 인해 사료를 먹지 않게 될 수도 있기 때문입니다.</p>
+                <br>
+                <h3>*어른 고양이들은 하루에 2~3번 밥 주기!</h3>
+                <p id="text">활동량이 많다면 더 줘도 상관없지만, 비만이 되기 가장 쉬운 시기이니 조심하기!</p>
+                <br>
+                <h3>*할머니, 할아버지 고양이들은 하루에 2번 주기!</h3>
+                <p id="text">노묘들은 하루에 활동량이 많지 않기 때문에 많이 주지 않아도 됩니다.</p>
+                <br>
+                <h5>*다이어트는 집사뿐만 아니라 고양이들에게도 힘든 일입니다. 그렇지만 세상에서 제일 사랑스러운 우리 고양이와 오래오래</h5>
+                <h5>행복하기 위해서는 확고한 결심이 필요합니다. 고양이의 건강은 전적으로 집사에게 달려있으니 보호자의 관심과 노력이 필요합니다.</h5>
+
+
+
+                
+            </div>
+            <div id="div10">
+                <img id="div10_1" src="div10.png">
+                <input type="textbox" id="kg" onkeyup='cal_kcal()'placeholder="고양이 체중(kg)" maxlength="5">
+                <select name="cat_now" oninput="cal_kcal()" id="cat_now">
+                    <option value="0">고양이 상태 선택</option>
+                    <option value="3">4개월 미만의 어린 고양이</option>
+                    <option value="2.5">4~6개월의 성장중인 어린 고양이</option>
+                    <option value="2">7~12개월의 성장중인 어린 고양이</option>
+                    <option value="1.4">중성화 하지 않은 성묘</option>
+                    <option value="1.2">중성화한 성묘</option>
+                    <option value="0.8">체중감량이 필요한 성묘</option>
+                    <option value="1.6">운동량이 많고 활발한 성묘</option>
+                </select>
+                <a id="cat_kcal1">000</a>
+                <a id="cat_kcal2">000</a>
+            </div>
+            
+            <!--<a id="theages" href="https://www.theages2022.com/">우리집 야옹이의 진짜 나이가 궁금하다면?</a>-->
+
+            <div id="info_rec">
+                <a id="info_rec1">고양이 둘레 재기!</a>
+                <a id="info_rec2">준비물: 고양이를 감을 수 있는 긴 끈, 자</a>
+                <a id="info_rec3">1. 고양이의 앞에서 9번째 갈비뼈(뒤에서 4번쨰 갈비뼈)를 기준으로 끈을 둘러 길이를 측정해주세요.</a>
+                <a id="info_rec4">2. 고양이의 뒷다리의 무릎과 발목 사이의 길이를 측정해주세요.</a>
+                <a id="info_rec5">그림을 참조해주세요!</a>
+            </div>
+        </div>
+        <nav>
+            <img id="logo2" src="logo2.png">
+            <button id="catfat" onclick="movetocatfat()">고양이 비만도 계산기</button>
+            <button id="catkcal" onclick="movetocatkcal()">고양이 하루 권장 칼로리 계산기</button>
+            <button id="cattip" onclick="movetocattip()">고양이 다이어트 팁 바로가기</button>
+        </nav>
+        </main>
+
+        <script>
+            function movetocatfat(){
+                window.scrollTo({left:0,top:220,behavior:"smooth"});
+            }
+            function navigo (){
+  const header = document.querySelector('header');
+  const headerheight = header.clientHeight;
+document.addEventListener('scroll', onScroll, { passive: true });
+ function onScroll () {
+     const scrollposition = pageYOffset;
+   const nav = document.querySelector('nav');
+   if (headerheight+200<=scrollposition){
+     nav.classList.add('fix')
+   }
+   else {
+     nav.classList.remove('fix');
+   }
+ } 
+  
+}
+function movetocatkcal(){
+                window.scrollTo({left:0,top:2460,behavior:"smooth"});
+            }
+            function navigo (){
+  const header = document.querySelector('header');
+  const headerheight = header.clientHeight;
+document.addEventListener('scroll', onScroll, { passive: true });
+ function onScroll () {
+     const scrollposition = pageYOffset;
+   const nav = document.querySelector('nav');
+   if (headerheight+200<=scrollposition){
+     nav.classList.add('fix')
+   }
+   else {
+     nav.classList.remove('fix');
+   }
+ } 
+  
+}
+function movetocattip(){
+                window.scrollTo({left:0,top:3890,behavior:"smooth"});
+            }
+            function navigo (){
+  const header = document.querySelector('header');
+  const headerheight = header.clientHeight;
+document.addEventListener('scroll', onScroll, { passive: true });
+ function onScroll () {
+     const scrollposition = pageYOffset;
+   const nav = document.querySelector('nav');
+   if (headerheight+200<=scrollposition){
+     nav.classList.add('fix')
+   }
+   else {
+     nav.classList.remove('fix');
+   }
+ } 
+  
+}
+navigo()
+            window.onload=function(){
+                document.getElementById('info').addEventListener('mouseover',function(){
+                    document.getElementById('info_rec').style.visibility="visible";
+                    document.getElementById('info').addEventListener('mouseout',function(){
+                        document.getElementById('info_rec').style.visibility="hidden"
+                    });
+                })
+            }
+            function cal_fat(){
+                const w = document.getElementById('waist').value
+                const l = document.getElementById('leg').value
+                var result=Math.floor((w-l)*1.5-9)
+                document.getElementById('cal_result').innerText=result
+                if (w<=0 || l<=0 || result<0 || w<l){
+                    document.getElementById('cal_result').innerText=00
+                }
+            }
+            function cal_kcal(){
+                const weight=parseFloat(document.getElementById('kg').value )
+                const mem=parseFloat(document.getElementById('cat_now').value)
+                
+                if (mem==0 || document.getElementById('kg').value.length==0 ){
+                    document.getElementById('cat_kcal1').innerText='000'
+                    document.getElementById('cat_kcal2').innerText='000'
+                }else{
+                    if (weight<2){
+                    document.getElementById('cat_kcal1').innerText=(mem*(70*(weight**0.75))).toFixed(1)}
+                else{
+                    document.getElementById('cat_kcal1').innerText=(mem*30*weight+70).toFixed(1)}
+                if (weight<2){
+                    document.getElementById('cat_kcal2').innerText=(70*(weight**0.75)).toFixed(1)}
+                else{
+                    document.getElementById('cat_kcal2').innerText=(30*weight+70).toFixed(1)}
+                }
+                
+            }
+
+            function showpic(sval){
+                document.getElementById('persent2').innerText=sval
+                if (16<=sval && sval<=25){
+                    document.getElementById('div4-1').style.visibility="visible"
+                    document.getElementById('div4-2').style.visibility="hidden"
+                    document.getElementById('div4-3').style.visibility="hidden"
+                    document.getElementById('div4-4').style.visibility="hidden"
+                    document.getElementById('div4-5').style.visibility="hidden"
+
+                    document.getElementById('div2-1_1').style.visibility="visible"
+                    document.getElementById('div2-1_2').style.visibility="visible"
+                    document.getElementById('div2-2_1').style.visibility="hidden"
+                    document.getElementById('div2-2_2').style.visibility="hidden"
+                    document.getElementById('div2-3_1').style.visibility="hidden"
+                    document.getElementById('div2-3_2').style.visibility="hidden"
+                    document.getElementById('div2-4_1').style.visibility="hidden"
+                    document.getElementById('div2-4_2').style.visibility="hidden"
+                    document.getElementById('div2-5_1').style.visibility="hidden"
+                    document.getElementById('div2-5_2').style.visibility="hidden"
+                }
+                if (26<=sval && sval<=35){
+                    document.getElementById('div4-1').style.visibility="hidden"
+                    document.getElementById('div4-2').style.visibility="visible"
+                    document.getElementById('div4-3').style.visibility="hidden"
+                    document.getElementById('div4-4').style.visibility="hidden"
+                    document.getElementById('div4-5').style.visibility="hidden"
+
+                    document.getElementById('div2-1_1').style.visibility="hidden"
+                    document.getElementById('div2-1_2').style.visibility="hidden"
+                    document.getElementById('div2-2_1').style.visibility="visible"
+                    document.getElementById('div2-2_2').style.visibility="visible"
+                    document.getElementById('div2-3_1').style.visibility="hidden"
+                    document.getElementById('div2-3_2').style.visibility="hidden"
+                    document.getElementById('div2-4_1').style.visibility="hidden"
+                    document.getElementById('div2-4_2').style.visibility="hidden"
+                    document.getElementById('div2-5_1').style.visibility="hidden"
+                    document.getElementById('div2-5_2').style.visibility="hidden"
+                }if (36<=sval && sval<=45){
+                    document.getElementById('div4-1').style.visibility="hidden"
+                    document.getElementById('div4-2').style.visibility="hidden"
+                    document.getElementById('div4-3').style.visibility="visible"
+                    document.getElementById('div4-4').style.visibility="hidden"
+                    document.getElementById('div4-5').style.visibility="hidden"
+
+
+                    document.getElementById('div2-1_1').style.visibility="hidden"
+                    document.getElementById('div2-1_2').style.visibility="hidden"
+                    document.getElementById('div2-2_1').style.visibility="hidden"
+                    document.getElementById('div2-2_2').style.visibility="hidden"
+                    document.getElementById('div2-3_1').style.visibility="visible"
+                    document.getElementById('div2-3_2').style.visibility="visible"
+                    document.getElementById('div2-4_1').style.visibility="hidden"
+                    document.getElementById('div2-4_2').style.visibility="hidden"
+                    document.getElementById('div2-5_1').style.visibility="hidden"
+                    document.getElementById('div2-5_2').style.visibility="hidden"
+                }if (46<=sval && sval<=55){
+                    document.getElementById('div4-1').style.visibility="hidden"
+                    document.getElementById('div4-2').style.visibility="hidden"
+                    document.getElementById('div4-3').style.visibility="hidden"
+                    document.getElementById('div4-4').style.visibility="visible"
+                    document.getElementById('div4-5').style.visibility="hidden"
+
+
+                    document.getElementById('div2-1_1').style.visibility="hidden"
+                    document.getElementById('div2-1_2').style.visibility="hidden"
+                    document.getElementById('div2-2_1').style.visibility="hidden"
+                    document.getElementById('div2-2_2').style.visibility="hidden"
+                    document.getElementById('div2-3_1').style.visibility="hidden"
+                    document.getElementById('div2-3_2').style.visibility="hidden"
+                    document.getElementById('div2-4_1').style.visibility="visible"
+                    document.getElementById('div2-4_2').style.visibility="visible"
+                    document.getElementById('div2-5_1').style.visibility="hidden"
+                    document.getElementById('div2-5_2').style.visibility="hidden"
+                }if (56<sval && sval<65){
+                    document.getElementById('div4-1').style.visibility="hidden"
+                    document.getElementById('div4-2').style.visibility="hidden"
+                    document.getElementById('div4-3').style.visibility="hidden"
+                    document.getElementById('div4-4').style.visibility="hidden"
+                    document.getElementById('div4-5').style.visibility="visible"
+
+
+                    document.getElementById('div2-1_1').style.visibility="hidden"
+                    document.getElementById('div2-1_2').style.visibility="hidden"
+                    document.getElementById('div2-2_1').style.visibility="hidden"
+                    document.getElementById('div2-2_2').style.visibility="hidden"
+                    document.getElementById('div2-3_1').style.visibility="hidden"
+                    document.getElementById('div2-3_2').style.visibility="hidden"
+                    document.getElementById('div2-4_1').style.visibility="hidden"
+                    document.getElementById('div2-4_2').style.visibility="hidden"
+                    document.getElementById('div2-5_1').style.visibility="visible"
+                    document.getElementById('div2-5_2').style.visibility="visible"
+                }
+            }
+            var rangeslider=function(){
+                var range=$('.catslider1');
+                range.on('input',function(){
+                    showpic(this.value);
+                });
+            };
+            rangeslider();
+
+        </script>
+    </body>
+</html>
